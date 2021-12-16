@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Quan Ly Idol</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<center>
+    <body onload="getAll()">
+    <button onclick="addNewIdol()">ADD</button>
+        <form id="addIdol"  ></form>
+    <form id="editIdol"  > </form>
+
+    <table border="5">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>PhoneNumber</th>
+            <th>Image</th>
+            <th>Address</th>
+            <th>Type</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody id="idol">
+
+        </tbody>
+    </table>
+    <script src="idol.js"></script>
+    </body>
+</center>
+</html>
